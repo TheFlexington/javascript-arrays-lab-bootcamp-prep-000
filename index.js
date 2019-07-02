@@ -34,7 +34,7 @@ function prependKitten(concat) {
 }
 
 function removeLastKitten(slice) {
-  return(kittens.slice(3));
+  return(kittens.slice(2, -1));
 }
 
 function removeFirstKitten(slice) {
