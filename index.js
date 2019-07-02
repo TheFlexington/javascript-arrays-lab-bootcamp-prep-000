@@ -29,8 +29,8 @@ function appendKitten(concat) {
 }
 
 function prependKitten(concat) {
-  var concat1 = ["Arnold"]
-  console.log(concat1.concat(kittens))
+  var concat1 = ["Arnold"];
+  return(concat1.concat(kittens));
 }
 
 function removeLastKitten(slice) {
