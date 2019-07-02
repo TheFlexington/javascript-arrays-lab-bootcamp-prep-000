@@ -23,11 +23,13 @@ function destructivelyRemoveFirstKitten(removefirst) {
 }
 
 function appendKitten(name) {
-  console.log(kittens.concat("Broom"))
+  var concat1 = ["Broom"]
+  console.log(kittens.concat(concat1))
 }
 
 function prependKitten(name) {
-  console.log(kittens.concat("Arnold"))
+  var concat1 = ["Arnold"]
+  console.log(concat1.concat(kittens))
 }
 
 function removeLastKitten() {
