@@ -22,20 +22,20 @@ function destructivelyRemoveFirstKitten(removefirst) {
   console.log(kittens);
 }
 
-function appendKitten(name) {
+function appendKitten(concat) {
   var concat1 = ["Broom"]
   console.log(kittens.concat(concat1))
 }
 
-function prependKitten(name) {
+function prependKitten(concat) {
   var concat1 = ["Arnold"]
   console.log(concat1.concat(kittens))
 }
 
-function removeLastKitten() {
+function removeLastKitten(slice) {
   console.log(kittens.slice(-1));
 }
 
-function removeFirstKitten() {
+function removeFirstKitten(slice) {
   console.log(kittens.slice(1));
 }
